@@ -19,9 +19,9 @@ for step in range(0,15,3):
              "Spring","Summer","Autumn","Winter", ]
 
 for season in seasons:
-print(season) #iteration over list
+    print(season) #iteration over list
 
-print("------------"*)
+print("------------"*3)
 for i in range(0,len(seasons),5):
       print(seasons[i])
 
@@ -38,10 +38,10 @@ for c in words:
 logs=["Execute1","Execute2","Execute3","Error","Execute4","Execute5","Execute6"]
 for log in logs:
     if log=="Error":
-       #break   e thyen ciklin
-    continue #vazhdo ciklin duke injoruar kete hap
-else:
-    print(log)
+        break   #e thyen ciklin
+        #continue #vazhdo ciklin duke injoruar kete hap
+    else:
+        print(log)
 
 
 
