@@ -20,14 +20,13 @@ if color!='green' or in_city is False or 3>5 or 1!=1:
 
 studenti="Rigoni"
 students=["Rini","Edlira","Ernesi","Syari","Olti"]
-
+print(students)
 if studenti not in students:
-    #students.append(studenti)
     students.insert(-1,studenti)
 else:
     print(students)
 
- print(students[-1])
+# (students[-1])
 
  #% mbetja pas pjestimit
 
