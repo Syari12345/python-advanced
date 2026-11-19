@@ -39,3 +39,4 @@ rezultati=n(numri1=15,numri2=20)
 print("Rezultati eshte: ",rezultati)
 
 
+
