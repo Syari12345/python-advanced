@@ -16,7 +16,7 @@ result=power(pow=3,nr=5) #implicite
 print(result)
 
 def rectangle_area(a:float,b:float)->float:
-    area = a*b #kjo variabel nuk ka scope jasht funksionit
+    area = a*b #local kjo variabel nuk ka scope jasht funksionit
     return round(area,2)
 
 print("Siperfaqja e drejtkendeshit eshte: ",rectangle_area(a=10.0,b=4.5),"njesi katrore")
